@@ -9,16 +9,16 @@ export const NavbarData = [
     {
         id: 2,
         name: "About",
-        link: "/",
+        link: "/aboutus",
     },
     {
         id: 3,
         name: "Services",
-        link: "/",
+        link: "/services",
     },
     {
         id: 4,
         name: "Contact US",
-        link: "/",
+        link: "/contact",
     },
 ];
