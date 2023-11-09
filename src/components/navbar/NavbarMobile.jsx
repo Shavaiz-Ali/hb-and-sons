@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { NavbarData } from '../../../utils';
+import { NavbarData } from '../../utils';
 import {AiFillHome} from "react-icons/ai";
 import {FaServicestack} from "react-icons/fa6";
 import {AiFillContacts} from "react-icons/ai";
