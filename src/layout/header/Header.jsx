@@ -5,7 +5,7 @@ import {Navbar} from "../navbar/Navbar"
 import Wrapper from "../../components/wrapper/Wrapper";
 const Header = () => {
   return (
-    <div className="w-100 shadow-lg py-2 md:px-0 px-[10px]">
+    <div className="w-100 shadow-md py-2 md:px-0 px-[10px]">
         <Wrapper className="flex justify-center items-center flex-col gap-3">
             <div className="flex justify-between items-center w-100">
                 <div className="flex justify-center items-center gap-4">

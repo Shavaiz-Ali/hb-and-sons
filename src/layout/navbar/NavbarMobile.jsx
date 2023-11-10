@@ -10,7 +10,7 @@ const iconComponents = [AiFillHome, MdRoundaboutRight, FaServicestack, AiFillCon
 
 const NavbarMobile = ({setActiveTab, activeTab}) => {
   return (
-    <div className="fixed bottom-0 left-0 w-100 h-[60px] bg-white border flex justify-center items-center">
+    <div className="fixed bottom-0 left-0 w-100 h-[60px] bg-white border flex justify-center items-center z-[500]">
       <ul className='flex justify-between items-center w-100'>
         {NavbarData.map((item, index) => (
           <Link

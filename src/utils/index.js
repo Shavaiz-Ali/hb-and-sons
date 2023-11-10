@@ -1,4 +1,5 @@
-
+import testmonialImage1 from  "/Johnsmith.png"
+import testmonialImage2 from  "/v8.png"
 
 export const NavbarData = [
     {
@@ -22,3 +23,25 @@ export const NavbarData = [
         link: "/contact",
     },
 ];
+
+
+export const TestimonialsData = [
+    {
+        id: 1,
+        clientImg : testmonialImage1,
+        img1 : testmonialImage2,
+        description1: `I can't praise Hb & SONS LLC enough for their exceptional services.`,
+        description2: `Their team's dedication to safety and on-time fuel deliveries has been a game-changer for our operations. We're proud to have them as our fuel transport partner`,
+        name: "John Smith",
+        company : "CEO, EnergyCorp Inc"
+    },
+    {
+        id: 2,
+        clientImg : testmonialImage1,
+        img1 : testmonialImage2,
+        description1: `I can't praise Hb & SONS LLC enough for their exceptional services.`,
+        description2: `Their team's dedication to safety and on-time fuel deliveries has been a game-changer for our operations. We're proud to have them as our fuel transport partner`,
+        name: "John Smith",
+        company : "CEO, EnergyCorp Inc"
+    },
+]

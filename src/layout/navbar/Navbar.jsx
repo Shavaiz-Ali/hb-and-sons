@@ -43,7 +43,7 @@ export const Navbar = () => {
                     }
                 </ul>
             }
-      <Button className="flex justify-center items-center hover:bg-[#D10400] hover:text-white text-[#D10400] transition-all duration-300 ease-in-out border-1 border-[#D10400] sm:px-[40px] px-[15px] sm:py-[12px] py-[6px] text-[#ED1C24] sm:font-[600] font-[400] font-serif rounded-full" text="Rigister/Login" />
+      <Button className="flex justify-center items-center hover:bg-[#D10400] hover:text-white text-[#D10400] transition-all duration-300 ease-in-out border-1 border-[#D10400] sm:px-[40px] px-[15px] sm:py-[12px] py-[6px] sm:font-[600] font-[400] font-serif rounded-full" text="Rigister/Login" />
 
       {
         mobileNav && (
