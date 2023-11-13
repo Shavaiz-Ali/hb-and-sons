@@ -44,4 +44,60 @@ export const TestimonialsData = [
         name: "John Smith",
         company : "CEO, EnergyCorp Inc"
     },
+];
+
+
+export const FooterData = [
+    {
+        id : 1001,
+        name: "Company",
+        Links : [
+            {
+                id: 2001,
+                name: "About Us",
+                link: "/"
+            },
+            {
+                id: 2002,
+                name: "Contact US",
+                link: "/"
+            },
+            {
+                id: 2003,
+                name: "Blog",
+                link: "/"
+            },
+            {
+                id: 2004,
+                name: "Testmonials",
+                link: "/"
+            },
+        ]
+    },
+    {
+        id : 1002,
+        name: "Support",
+        Links : [
+            {
+                id: 3001,
+                name: "Help Center",
+                link: "/"
+            },
+            {
+                id: 3002,
+                name: "Terms of Services",
+                link: "/"
+            },
+            {
+                id: 3003,
+                name: "Legal",
+                link: "/"
+            },
+            {
+                id: 3004,
+                name: "Privacy Policy",
+                link: "/"
+            },
+        ]
+    },
 ]
